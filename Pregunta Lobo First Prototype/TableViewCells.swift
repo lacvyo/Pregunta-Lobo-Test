@@ -40,11 +40,11 @@ class TableViewCells: UITableViewCell {
         
         if sender.isOn {
             
-            FIRMessaging.messaging().subscribe(toTopic: "/topics/\(self.topicLabel.text!)")
+            Messaging.messaging().subscribe(toTopic: "/topics/\(self.topicLabel.text!)")
             print("/topics/\(self.topicLabel.text!)")
         } else {
             
-            FIRMessaging.messaging().unsubscribe(fromTopic: "/topics/\(self.topicLabel.text!)")
+            Messaging.messaging().unsubscribe(fromTopic: "/topics/\(self.topicLabel.text!)")
             print("/topics/\(self.topicLabel.text!)")
         }
         

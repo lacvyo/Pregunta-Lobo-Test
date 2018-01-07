@@ -32,13 +32,13 @@ class WriteToTextFile: NSObject {
             {
                 outputStream.open()
                 let text = header + "\n" + stringToFile
-                outputStream.write(text, maxLength: text.characters.count)
+                outputStream.write(text, maxLength: text.count)
                 outputStream.close()
             }
             else {
                 outputStream.open()
                 let text = stringToFile
-                outputStream.write(text, maxLength: text.characters.count)
+                outputStream.write(text, maxLength: text.count)
                 outputStream.close()
             }
             
@@ -120,7 +120,7 @@ class WriteToTextFile: NSObject {
         if let outputStream = OutputStream(toFileAtPath: path, append: true)
         {
             outputStream.open()
-            outputStream.write(copiedText, maxLength: copiedText.characters.count)
+            outputStream.write(copiedText, maxLength: copiedText.count)
             outputStream.close()
         }
         

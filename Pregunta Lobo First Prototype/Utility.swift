@@ -30,7 +30,7 @@ class Utility: NSObject {
             
             //let alert: UIAlertView = UIAlertView()
             if (error != nil) {
-                print("Error \(error)")
+                print("Error \(String(describing: error))")
                 //alert.title = "Error."
                 //alert.message = error?.localizedDescription
             } else {

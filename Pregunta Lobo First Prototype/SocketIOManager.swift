@@ -13,22 +13,27 @@ class SocketIOManager: NSObject {
     
     static let sharedInstance = SocketIOManager()
     //var socket: SocketIOClient = SocketIOClient(socketURL: NSURL(string: "http://136.145.45.240:3000")! as URL)
-    let socket = SocketIOClient(socketURL: URL(string: "http://136.145.45.240:3000")!)
-        
+    //let socket = SocketIOClient(socketURL: URL(string: "http://136.145.45.240:3000")!)
+
+    let manager = SocketManager(socketURL: URL(string: "http://136.145.45.240:3000")!)
+    lazy var defaultSocket = self.manager.defaultSocket
+    lazy var namespaceSocket = self.manager.socket(forNamespace: "/swift")
+    
+    
     override init() {
         super.init()
     }
     
     func establishConnection() {
-        socket.connect()
+        namespaceSocket.connect()
     }
     
     func closeConnection() {
-        socket.disconnect()
+        namespaceSocket.disconnect()
     }
     
     func sendMessage(message: String) {
-        socket.emit("message", message)
+        namespaceSocket.emit("message", message)
     }
     
 }

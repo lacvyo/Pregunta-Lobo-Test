@@ -435,7 +435,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
             {
                 let pinAnnotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "myPin")
 
-                pinAnnotationView.pinColor = .red
+                pinAnnotationView.pinTintColor = .red
                 pinAnnotationView.isDraggable = false
                 pinAnnotationView.canShowCallout = true
                 pinAnnotationView.animatesDrop = false
