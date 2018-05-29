@@ -1,2 +1,2 @@
 # PreguntaLobo
-Ultima version de Pregunta Lobo. (version 1.4)
+Ultima version de Pregunta Lobo. (version 1.5)
