@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pregunta Lobo First Prototype/MapViewController.swift"
+            timestampString = "537211786.163687"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "355"
+            endingLineNumber = "355"
+            landmarkName = "mapView(_:viewFor:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pregunta Lobo First Prototype/MapViewController.swift"
+            timestampString = "537211786.16382"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "356"
+            endingLineNumber = "356"
+            landmarkName = "mapView(_:viewFor:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pregunta Lobo First Prototype/TablaMapa.swift"
+            timestampString = "476070219.706615"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "TablaMapa"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pregunta_Lobo_First_Prototype.TablaMapa.image3.getter : Swift.String"
+                  moduleName = "Pregunta Lobo First Prototype"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camupra/Desktop/P.%20Lobo%20iPad-iPhone%20Interface%206%202/Pregunta%20Lobo%20First%20Prototype/TablaMapa.swift"
+                  timestampString = "476070219.739247"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pregunta_Lobo_First_Prototype.TablaMapa.image3.setter : Swift.String"
+                  moduleName = "Pregunta Lobo First Prototype"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camupra/Desktop/P.%20Lobo%20iPad-iPhone%20Interface%206%202/Pregunta%20Lobo%20First%20Prototype/TablaMapa.swift"
+                  timestampString = "476070219.740777"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pregunta_Lobo_First_Prototype.TablaMapa.image3.materializeForSet : Swift.String"
+                  moduleName = "Pregunta Lobo First Prototype"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camupra/Desktop/P.%20Lobo%20iPad-iPhone%20Interface%206%202/Pregunta%20Lobo%20First%20Prototype/TablaMapa.swift"
+                  timestampString = "476070219.7409"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pregunta_Lobo_First_Prototype.TablaMapa.init (Pregunta_Lobo_First_Prototype.TablaMapa.Type)() -&gt; Pregunta_Lobo_First_Prototype.TablaMapa"
+                  moduleName = "Pregunta Lobo First Prototype"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camupra/Desktop/P.%20Lobo%20iPad-iPhone%20Interface%206%202/Pregunta%20Lobo%20First%20Prototype/TablaMapa.swift"
+                  timestampString = "476070219.740989"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100344748">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FIRAUserAttribute initWithOrigin:name:value:lastSetTimestamp:]"
+                  moduleName = "Pregunta Lobo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "355">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pregunta Lobo First Prototype/MapViewController.swift"
+            timestampString = "537211786.163969"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "587"
+            endingLineNumber = "587"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
