@@ -14,7 +14,7 @@ struct globalVariables {
 }
 
 struct test{
-    static var x = 1
+    static var x = 2
 }
 
 class QuestionViewController: UIViewController, UIPopoverPresentationControllerDelegate, UITextFieldDelegate {
